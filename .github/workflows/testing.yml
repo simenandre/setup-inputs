@@ -36,4 +36,9 @@ jobs:
         run: pnpm build
 
       - name: Test Action
+        id: inputs
         uses: ./
+
+      - run: echo ${{ steps.inputs.outputs.a-string }}
+      - run: echo ${{ steps.inputs.outputs.payload }}
+      - run: echo ${{ steps.inputs.outputs.ref }}
