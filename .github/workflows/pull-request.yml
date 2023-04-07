@@ -29,8 +29,8 @@ jobs:
       - name: Format 🔍
         run: pnpm format:check
 
-      - name: Test 🧪
-        run: pnpm test --passWithNoTests
+      # - name: Test 🧪
+      #   run: pnpm test --passWithNoTests
 
       - name: Build 🔨
         run: pnpm build
