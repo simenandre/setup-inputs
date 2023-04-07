@@ -68,10 +68,11 @@ jobs:
         with:
           message: 'chore: update dist files'
           add: 'dist --force'
-  
+
   test-action:
-    name: Test Action 
+    name: Test Action
     runs-on: ubuntu-latest
+    needs: build
 
     steps:
       - name: Checkout 🛎️
@@ -90,4 +91,3 @@ jobs:
         with:
           event-type: test-action
           client-payload: '{"ref": "${{ github.ref }}"}'
-        
