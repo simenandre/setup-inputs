@@ -3,6 +3,9 @@ name: Trigger Dispatch
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   trigger-dispatch:
     name: Trigger a dispatch
