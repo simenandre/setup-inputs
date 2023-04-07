@@ -1,0 +1,15 @@
+{
+  "ts-node": {
+    "files": true,
+    "esm": true
+  },
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "exactOptionalPropertyTypes": false,
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

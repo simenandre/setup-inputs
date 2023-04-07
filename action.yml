@@ -1,0 +1,9 @@
+name: setup-inputs
+author: Simen A. W. Olsen
+description: Setup inputs for a GitHub Action
+branding:
+  icon: code
+  color: purple
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
