@@ -5,3 +5,7 @@ import github from '@actions/github';
 if (github.context.eventName === 'repository_dispatch') {
   info(JSON.stringify(github.context.payload, null, 2));
 }
+
+if (github.context.eventName === 'workflow_dispatch') {
+  info(JSON.stringify(github.context.payload, null, 2));
+}
