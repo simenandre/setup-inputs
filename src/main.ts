@@ -7,5 +7,5 @@ if (github.context.eventName === 'repository_dispatch') {
 }
 
 if (github.context.eventName === 'workflow_dispatch') {
-  info(JSON.stringify(github.context.payload, null, 2));
+  info(JSON.stringify(github.context.payload.inputs, null, 2));
 }

@@ -1,0 +1,16 @@
+name: Testing Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger-dispatch:
+    name: Trigger a dispatch
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          event-type: test-action
+          client-payload: '{"ref": "${{ github.ref }}"}'
