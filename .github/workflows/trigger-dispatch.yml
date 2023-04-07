@@ -1,4 +1,4 @@
-name: Testing Action
+name: Trigger Dispatch
 
 on:
   workflow_dispatch:
