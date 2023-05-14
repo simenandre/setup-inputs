@@ -9,7 +9,7 @@ support for more events and input validation.
 ## Quickstart
 
 ```yaml
-- uses: cobraz/setup-inputs@v1
+- uses: simenandre/setup-inputs@v1
   id: inputs
 ```
 
