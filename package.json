@@ -41,7 +41,7 @@
     "@vercel/ncc": "^0.36.1"
   },
   "devDependencies": {
-    "@bjerk/eslint-config": "^3.1.0",
+    "@bjerk/eslint-config": "^4.0.0",
     "@cobraz/prettier": "^2.0.1",
     "@tsconfig/esm": "^1.0.2",
     "@tsconfig/node16": "^1.0.3",
