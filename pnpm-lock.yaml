@@ -6,7 +6,7 @@ specifiers:
   '@bjerk/eslint-config': ^4.0.0
   '@cobraz/prettier': ^2.0.1
   '@tsconfig/esm': ^1.0.2
-  '@tsconfig/node16': ^1.0.3
+  '@tsconfig/node16': ^16.0.0
   '@tsconfig/strictest': ^2.0.0
   '@types/jest': ^29.5.0
   '@types/node': ^18.15.11
@@ -38,7 +38,7 @@ devDependencies:
   '@bjerk/eslint-config': 4.1.0_qupr2kuudm4s5mhvfwgpeswgo4
   '@cobraz/prettier': 2.0.2_prettier@2.8.8
   '@tsconfig/esm': 1.0.3
-  '@tsconfig/node16': 1.0.4
+  '@tsconfig/node16': 16.1.0
   '@tsconfig/strictest': 2.0.1
   '@types/jest': 29.5.1
   '@types/node': 18.16.14
@@ -948,6 +948,10 @@ packages:
 
   /@tsconfig/node16/1.0.4:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
+    dev: true
+
+  /@tsconfig/node16/16.1.0:
+    resolution: {integrity: sha512-cfwhqrdZEKS+Iqu1OPDwmKsOV/eo7q4sPhWzOXc1rU77nnPFV3+77yPg8uKQ2e8eir6mERCvrKnd+EGa4qo4bQ==}
     dev: true
 
   /@tsconfig/strictest/2.0.1:
