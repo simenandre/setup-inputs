@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@actions/core': ^1.10.0
   '@actions/github': ^5.1.1
-  '@bjerk/eslint-config': ^4.0.0
+  '@bjerk/eslint-config': ^5.0.0
   '@cobraz/prettier': ^2.0.1
   '@tsconfig/esm': ^1.0.2
   '@tsconfig/node16': ^1.0.3
@@ -35,7 +35,7 @@ dependencies:
   '@vercel/ncc': 0.36.1
 
 devDependencies:
-  '@bjerk/eslint-config': 4.1.0_qupr2kuudm4s5mhvfwgpeswgo4
+  '@bjerk/eslint-config': 5.0.0_w7fepvqx4qfsjt3zi4ztotn4vi
   '@cobraz/prettier': 2.0.2_prettier@2.8.8
   '@tsconfig/esm': 1.0.3
   '@tsconfig/node16': 1.0.4
@@ -427,20 +427,19 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@bjerk/eslint-config/4.1.0_qupr2kuudm4s5mhvfwgpeswgo4:
-    resolution: {integrity: sha512-iRGN8oL112LjPX2xoRr/VERgomoekuNH6XwoE9EbFlWnbeNwf3ou0VqhZDwZwZssFcaEOtTmpmNN9nKNWyJc7g==}
+  /@bjerk/eslint-config/5.0.0_w7fepvqx4qfsjt3zi4ztotn4vi:
+    resolution: {integrity: sha512-RIk8DZGycDfsBIzjFZIxFPO6ESIMPEBZJQ2S3RG1Ij80zMD+PbN4mtOmTYUodzdX8GIkW85WpzPNfDgbr5LxQg==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': ^5.59.0
-      '@typescript-eslint/parser': ^5.59.0
+      '@typescript-eslint/eslint-plugin': ^6.0.0
+      '@typescript-eslint/parser': ^6.0.0
       eslint: ^7.32.0 || ^8.2.0
       eslint-config-prettier: ^8.8.0
       eslint-plugin-eslint-comments: ^3.2.0
       eslint-plugin-import: ^2.27.5
-      eslint-plugin-prettier: ^4.2.1
       eslint-plugin-promise: ^6.1.1
       eslint-plugin-unicorn: ^47.0.0
-      prettier: ^2.8.7
+      prettier: '*'
     peerDependenciesMeta:
       prettier:
         optional: true
@@ -451,7 +450,6 @@ packages:
       eslint-config-prettier: 8.8.0_eslint@8.41.0
       eslint-plugin-eslint-comments: 3.2.0_eslint@8.41.0
       eslint-plugin-import: 2.27.5_4axmhv5rl7cvu7f33ludfwxkcu
-      eslint-plugin-prettier: 4.2.1_xcqkel4mpum3npntysob2xmn54
       eslint-plugin-promise: 6.1.1_eslint@8.41.0
       eslint-plugin-unicorn: 47.0.0_eslint@8.41.0
       prettier: 2.8.8
