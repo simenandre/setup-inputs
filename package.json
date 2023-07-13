@@ -1,5 +1,5 @@
 {
-  "name": "mine",
+  "name": "setup-inputs",
   "exports": "./dist/main.js",
   "type": "module",
   "volta": {
