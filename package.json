@@ -10,23 +10,6 @@
     "node": ">=18"
   },
   "prettier": "@cobraz/prettier",
-  "eslintConfig": {
-    "extends": [
-      "@bjerk/eslint-config",
-      "plugin:jest/recommended"
-    ],
-    "plugins": [
-      "jest"
-    ],
-    "overrides": [
-      {
-        "files": "jest.config.*",
-        "rules": {
-          "import/no-default-export": "off"
-        }
-      }
-    ]
-  },
   "scripts": {
     "build": "ncc build src/main.ts -e typescript -o dist --source-map",
     "dev": "NODE_ENV=development dotenv-load nodemon src/main.ts",
